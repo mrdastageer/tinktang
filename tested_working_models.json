@@ -1,0 +1,28 @@
+{
+  "tested_at": "2026-10-07 00:20:04",
+  "working_models": {
+    "nvidia-nim": [
+      "nvidia/nemotron-3.5-lightning-30b-a3b"
+    ],
+    "google-gemini": []
+  },
+  "failed_models": {
+    "nvidia-nim": {
+      "nvidia/llama-3.1-nemotron-70b-instruct": "Not Found (404)",
+      "nvidia/llama-3.1-nemotron-51b-instruct": "Not Found (404)",
+      "meta/llama2-70b": "Not Found (404)",
+      "mistralai/mistral-large-2-instruct": "Not Found (404)",
+      "deepseek-ai/deepseek-v4.1-flash": "Timeout",
+      "google/gemma-4-31b-it": "Timeout",
+      "meta/codellama-70b": "Not Found (404)",
+      "01-ai/yi-large": "Not Found (404)"
+    },
+    "google-gemini": {
+      "gemini-1.5-flash": "Not Found (404)",
+      "gemini-1.5-pro": "Not Found (404)",
+      "gemini-2.0-flash-exp": "Not Found (404)",
+      "gemini-flash-latest": "No candidates in response",
+      "gemini-pro-latest": "Rate Limited (429)"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+# Environment
+venv/
+.venv/
+.crewai/
+.env
+serviceAccountKey.json
+*service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+thinktank.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
